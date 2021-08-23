@@ -22,13 +22,6 @@ https://kubernetes.io/
 - Proven and battle-tested
 - Market leader
 <br> </br>
-- ------------------------------
-
-### Why use Kubernetes
-
-
-
-
 
 - ---------------------------
 ### When not to use K8
@@ -49,11 +42,24 @@ https://kubernetes.io/
 - And more
 <br> </br>
 - -------------------------
+### What is the difference between K8 managed service and unmanaged K8 services 
 
 
+- Managed Kubernetes
+	- Managed Kubernetes is when third-party providers take over responsibility for some or all of the work necessary for the successful set-up and operation of K8s
+	- Each cloud platform provides Kubernetes management services
+	- Provider-managed Kubernetes service reduces the overhead for managing and maintaining a cluster, it manages the master node for you.
 
 
-what are managed services for K8
-what is the def between K8 managed service and non managed K8 services 
-create a new repo on git hub
-create a Diagram for K8 cluster
+- Unmanaged Kubernetes
+	- You have to deal with the installation and maintenance of Kubernetes yourself
+	- With self-managed Kubernetes, you have more flexibility over your cluster. You can use cloud provider services like EC2, Compute Engine, etc., or even your on-premises machine.
+
+<br> </br>
+- ------------------------------------
+### What is Kubernetes cluster
+- A Kubernetes cluster is a set of nodes that run containerized applications. Containerizing applications packages an app with its dependences and some necessary services. They are more lightweight and flexible than virtual machines. In this way, Kubernetes clusters allow for applications to be more easily developed, moved and managed. 
+- Kubernetes clusters allow containers to run across multiple machines and environments: virtual, physical, cloud-based, and on-premises. Kubernetes containers are not restricted to a specific operating system, unlike virtual machines. Instead, they are able to share operating systems and run anywhere.
+
+![0_Px-1ZHAyJo1U7s_i](https://user-images.githubusercontent.com/86292184/130438321-9bac0c3c-075c-4520-a03e-b796a17a4799.png)
+<br> </br>
