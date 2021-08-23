@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: sparta-node-app-deployment
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sparta-node-app  
+
+
+template:
+  metadata:
+    labels:
+      app: sparta-node-app
+
+  spec:
+    containers:
+    - image: eng89_docker_app_web_1
+      name: eng89_docker_app_web_1
+      containerPort:
+      - port: 3000
+        targetPort: 3000
+
+

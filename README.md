@@ -63,3 +63,12 @@ https://kubernetes.io/
 
 ![0_Px-1ZHAyJo1U7s_i](https://user-images.githubusercontent.com/86292184/130438321-9bac0c3c-075c-4520-a03e-b796a17a4799.png)
 <br> </br>
+- ---------------------------------------
+`kubectl create -f nginx_deployment.yml`
+`kubectl get deploy`
+`kubectl get pods`
+to check cluster ip: `kubectl get service`
+`kubectl edit deploy nginx-deployment`
+
+`kubectl get svc`
+`kubectl edit svc nginx-deployment`
